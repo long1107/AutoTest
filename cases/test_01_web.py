@@ -7,7 +7,9 @@ class TestWeb(unittest.TestCase):
     def setUpClass(cls):
         print("开始测试。。。。。")
         cls.driver=pyselenium.PySelenium()
-    
+    '''
+dafdsafdfsadfadfsd
+    '''
     @classmethod
     def tearDownClass(cls):
         cls.driver.quit()
